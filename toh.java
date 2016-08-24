@@ -25,11 +25,11 @@ int num = scan.nextInt();
      {
   if (n > 0)
         {
-  move(n-1, a, c, b);     
+  move(n-1, a1, c1, b1);     
  int d = tower[a].pop();                                             
- tower[c].push(d);
+ tower[c1].push(d);
         display();                   
-           move(n-1, b, a, c);     
+           move(n-1, b1, a1, c1);     
     }         
      }
      public static void display()
